@@ -32,6 +32,7 @@
     "react-test-renderer": "^15.4.1"
   },
   "scripts": {
-    "build": "gulp dist"
+    "build": "gulp dist",
+    "postinstall": "gulp dist"
   }
 }
