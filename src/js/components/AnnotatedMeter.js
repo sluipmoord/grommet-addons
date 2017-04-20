@@ -29,7 +29,7 @@ export default class AnnotatedMeter extends Component {
     const { index } = this.state;
 
     let value, label;
-    if (index >= 0) {
+    if (index && index >= 0) {
       value = series[index].value;
       label = series[index].label;
     } else {
